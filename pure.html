@@ -1,0 +1,25 @@
+<script src="https://unpkg.com/react@15/dist/react.js"></script>
+<script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/hmac-sha256.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/enc-base64-min.js">
+</script><div id="root">
+  <!-- This div's content will be managed by React. -->
+</div>
+<script src="http://eiopa3-dev7/sites/test/SiteAssets/myapp.js"></script>
+<div class="container">
+  <h2>This is an example token</h2>
+  <p>
+    Authenticate Passkit v2 Api Requests with:
+  </p>
+  <pre id="authToken" style="word-wrap: break-word;"></pre>
+  <p>
+    <a alt="Debug Token" id="debugLink" target="_blank"><img alt="Debug Token" src="http://jwt.io/assets/badge.svg"></a>
+  </p>
+  <p>
+    Please note that this should only ever be used in backend servers, as storing your api_secret in frontend javascript code would reveal it to the public.
+  </p>
+  <p>
+    More info on JWT <a href="https://auth0.com/learn/json-web-tokens/">here</a>
+  </p>
+</div>
+<script src="http://eiopa3-dev7/sites/test/SiteAssets/myjwt.js"></script>
