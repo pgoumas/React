@@ -17,6 +17,7 @@ var RandomMessage = React.createClass({
       'div',
       null,
       React.createElement(MessageView, { message: this.state.message }),
+      React.createElement(MessageView, { message: this.state.message }),
       React.createElement(
         'p',
         null,
